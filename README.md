@@ -14,10 +14,10 @@ Author: Tay Kratzer tay@cimitra.com
 
 **ADDITIONAL OPTIONAL PARAMETERS**
 
-Install Agent as a **systemd** process.
+Install Agent as a **systemd** process
 
 curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme **systemd**
 
-Install Agent and specify the name of the agent with **name=<agent name>** process.
+Install Agent and specify the name of the agent with **name=[agent name]**
 
 curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme **name=FAVORITE_AGENT**
