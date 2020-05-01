@@ -2,7 +2,7 @@
 ###########################################
 # cimitra_macos_agent_install.sh          #
 # Author: Tay Kratzer - tay@cimitra.com   #
-# Version: 1.0                            #
+# Version: 1.1                            #
 # Modify date: 4/30/2020                  #
 ###########################################
 # Cimitra MacOS Agent Installation Script
