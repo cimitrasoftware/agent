@@ -32,13 +32,13 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 **ADDITIONAL OPTIONAL PARAMETERS**
 
-Install Agent as a **systemd** process
+( Install Agent as a **systemd** process )
 
 **[Example]**
 
 **curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme systemd**
 
-Install Agent and specify the name of the agent with **name=[agent name]**
+( Install Agent and specify the name of the agent with **name=[agent name]** )
 
 **[Example]**
 
@@ -59,7 +59,7 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 **ADDITIONAL OPTIONAL PARAMETERS**
 
-Install Agent and specify the name of the agent with **name=[agent name]**
+( Install Agent and specify the name of the agent with **name=[agent name]** )
 
 **[Example]**
 
