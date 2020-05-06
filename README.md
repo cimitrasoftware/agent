@@ -10,9 +10,11 @@ Author: Tay Kratzer tay@cimitra.com
 
 **A. NO PROMPT FOR CREDENTIALS**
 
+**[Syntax]**
+
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh [cimitra server address] [cimitra server port] [admin user] [admin user password]
 
-**[EXAMPLE]**
+**[Example]**
 
 **curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme**
 
@@ -20,9 +22,11 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 **B. DO PROMPT FOR CREDENTIALS**
 
+**[Syntax]**
+
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh [cimitra server address] [cimitra server port]
 
-**[EXAMPLE]**
+**[Example]**
 
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 
 
@@ -30,9 +34,13 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 Install Agent as a **systemd** process
 
+**[Example]**
+
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme **systemd**
 
 Install Agent and specify the name of the agent with **name=[agent name]**
+
+**[Example]**
 
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme **name=FAVORITE_AGENT**
 
@@ -41,13 +49,19 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 **1.** **DOWNLOAD AND RUN** the Cimitra Agent for MacOS **install** script file in a Mac terminal session in this manner:
 
+**[Syntax]**
+
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_macos_agent_install.sh -o ./ ; chmod +x ./cimitra_macos_agent_install.sh ; ./cimitra_mac_agent_install.sh [cimitra server address] [cimitra server port] [admin user] [admin user password]
+
+**[Example]**
 
 **curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_macos_agent_install.sh -o ./ ; chmod +x ./cimitra_macos_agent_install.sh ; ./cimitra_macos_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme**
 
 **ADDITIONAL OPTIONAL PARAMETERS**
 
 Install Agent and specify the name of the agent with **name=[agent name]**
+
+**[Example]**
 
 curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_macos_agent_install.sh -o ./ ; chmod +x ./cimitra_macos_agent_install.sh ; ./cimitra_macos_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme **name=MY_MAC_BOX**
 
