@@ -5,7 +5,7 @@ Version: 1.5
 Author: Tay Kratzer tay@cimitra.com
 **Cimitra Linux/MacOS Agent Installation in 1 Easy Step**
 
-**1.** **DOWNLOAD AND RUN** the Cimitra Agent for Linux/MacOS **install** script file in a terminal session in this manner:
+**1.** **DOWNLOAD AND RUN** the Cimitra Agent for Linux/MacOS **install** script file in a terminal session. Copy the entire line which should make mention to the cimitra_nix_agent_install.sh three times. 
 
 **A. NO PROMPT FOR CREDENTIALS**
 
