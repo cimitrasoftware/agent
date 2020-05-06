@@ -18,7 +18,7 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 **curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_linux_agent_install.sh -o ./ ; chmod +x ./cimitra_linux_agent_install.sh ; ./cimitra_linux_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme**
 
-**OR**
+**- OR -**
 
 **B. DO PROMPT FOR CREDENTIALS**
 
