@@ -27,7 +27,7 @@ curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra
 
 **[Example]**
 
-**curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh.sh ; ./cimitra_nix_agent_install.sh cimitra.example.com 443**
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh.sh ; ./cimitra_nix_agent_install.sh 192.168.1.16 443
 
 **ADDITIONAL OPTIONAL PARAMETERS**
 
@@ -35,11 +35,11 @@ curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra
 
 **[Example]**
 
-**curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh ; ./cimitra_nix_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme systemd**
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh ; ./cimitra_nix_agent_install.sh 192.168.1.16 443 admin@cimitra.com changeme systemd
 
 ( Install Agent and specify the name of the agent with **name=[agent name]** )
 
 **[Example]**
 
-**curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh ; ./cimitra_nix_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme name=FAVORITE_AGENT**
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh ; ./cimitra_nix_agent_install.sh 192.168.1.16 443 admin@cimitra.com changeme name=FAVORITE_AGENT
 
