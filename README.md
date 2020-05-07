@@ -15,7 +15,7 @@ curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitra
 
 **[Example]**
 
-**curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh ; ./cimitra_nix_agent_install.sh cimitra.example.com 443 admin@cimitra.com changeme**
+curl -H 'Cache-Control: no-cache' -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_nix_agent_install.sh -o ./ ; chmod +x ./cimitra_nix_agent_install.sh ; ./cimitra_nix_agent_install.sh 192.168.1.16 443 admin@cimitra.com changeme
 
 **- OR -**
 
