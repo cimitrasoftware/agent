@@ -1,9 +1,9 @@
 
 Agent Installation Scripts for Cimitra
-Version: 1.5
+Version: 1.6
 
 Author: Tay Kratzer tay@cimitra.com
-**Cimitra Linux/MacOS Agent Installation in 1 Easy Step**
+**Cimitra Linux/MacOS or Node.js Agent Installation in 1 Easy Step**
 
 **1.** **DOWNLOAD AND RUN** the Cimitra Agent for Linux/MacOS and Node.js platforms (ARM Processors require Node.js) **install** script file in a terminal session. Copy the entire line which should make mention to the cimitra_agent_install.sh three times. 
 
