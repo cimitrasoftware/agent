@@ -6,6 +6,8 @@ Version: 1.0
 
 **Cimitra Windows Agent Installation in 1 Easy Step**
 
+**NOTE: The PowerShell script must be run on PowerShell 6 or greater. **
+
 **1.** **DOWNLOAD AND RUN** the Cimitra Agent for Windows **install** script file in a terminal session. Copy the entire line which should make mention to the cimitra_agent_install.sh three times. 
 
 **A. NO PROMPT FOR CREDENTIALS**
