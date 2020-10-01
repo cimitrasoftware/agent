@@ -57,11 +57,11 @@ Version: 1.6
 
 **[Syntax]**
 
-curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./ ; chmod +x ./cimitra_agent_install.sh ; ./cimitra_agent_install.sh [cimitra server address] [cimitra server port] [admin user] [admin user password]
+curl https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./agent.sh ; chmod +x ./agent.sh ; ./agent.sh [cimitra server address] [cimitra server port] [admin user] [admin user password]
 
 **[Example]**
 
-curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./ ; chmod +x ./cimitra_agent_install.sh ; ./cimitra_agent_install.sh 192.168.1.16 443 admin@cimitra.com changeme
+curl https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./agent.sh ; chmod +x ./agent.sh ; ./agent.sh 192.168.1.16 443 admin@cimitra.com changeme
 
 **- OR -**
 
@@ -69,11 +69,11 @@ curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra
 
 **[Syntax]**
 
-curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./ ; chmod +x ./cimitra_agent_install.sh ; ./cimitra_agent_install.sh [cimitra server address] [cimitra server port]
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./agent.sh ; chmod +x ./agent.sh ; ./agent.sh [cimitra server address] [cimitra server port]
 
 **[Example]**
 
-curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./ ; chmod +x ./cimitra_agent_install.sh ; ./cimitra_agent_install.sh 192.168.1.16 443
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./agent.sh ; chmod +x ./agent.sh ; ./agent 192.168.1.16 443
 
 **ADDITIONAL OPTIONAL PARAMETERS**
 
@@ -81,11 +81,11 @@ curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra
 
 **[Example]**
 
-curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh.sh -o ./ ; chmod +x ./cimitra_agent_install.sh ; ./cimitra_agent_install.sh 192.168.1.16 443 admin@cimitra.com changeme systemd
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh.sh -o ./agent.sh ; chmod +x ./agent.sh ; ./agent.sh 192.168.1.16 443 admin@cimitra.com changeme systemd
 
 ( Install Agent and specify the name of the agent with **name=[agent name]** )
 
 **[Example]**
 
-curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./ ; chmod +x ./cimitra_agent_install.sh ; ./cimitra_agent_install.sh 192.168.1.16 443 admin@cimitra.com changeme name=FAVORITE_AGENT
+curl -LJO https://raw.githubusercontent.com/cimitrasoftware/agent/master/cimitra_agent_install.sh -o ./agent.sh ; chmod +x ./agent.sh ; ./agent.sh 192.168.1.16 443 admin@cimitra.com changeme name=FAVORITE_AGENT
 
