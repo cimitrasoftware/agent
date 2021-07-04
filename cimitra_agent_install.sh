@@ -5,6 +5,7 @@
 # Version: 1.3                            #
 # Modify date: 7/3/2021                  #
 ###########################################
+echo "Modifed 7/3/2021"
 # Cimitra Linux/MacOS Agent Installation Script
 PROGRAM_NAME="cimitra_agent_install.sh"
 declare -i OS_IS_LINUX=`echo "${OSTYPE}" | grep -ic "linux"`
