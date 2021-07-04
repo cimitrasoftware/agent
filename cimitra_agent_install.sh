@@ -551,6 +551,7 @@ then
 
 	if [ ${STATUS} -eq 0 ] 
 	then
+		echo "Response: ${RESPONSE}"
 		CALL_ERROR "Cannot Authenticate to the Cimitra Server"
 		exit 1
 	else
